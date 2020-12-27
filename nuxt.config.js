@@ -7,6 +7,13 @@ export default {
     }
   ],
 
+  ssr: 'true',
+
+  server: {
+    port: 3000,
+    host: '0.0.0.0'
+  },
+
   // Loading Bar(default)
   loading: { color: 'blue', height: '10px' },
 
